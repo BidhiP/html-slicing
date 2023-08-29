@@ -1,3 +1,21 @@
+/* reset css */
+/* grid layout (bootstrap) */
+/* helper */
+.container{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.row{
+    display: flex;
+}
+
+.col-3{
+    width: 33%;
+}
+
+/* main */
 ul.navbar {
     display: flex;
     justify-content: space-between;
@@ -86,8 +104,9 @@ li.nav-title {
     background-image: "/images/laptop1.jpg";
 }
 .express-custom{
-    padding: 100px 0;
+    display: flex;
+    padding: 120px 0;
     border: 3px;
-    text-align: left;
-    justify-content: center;
+    text-align: right;
+
 }
