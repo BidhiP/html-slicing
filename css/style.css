@@ -9,9 +9,10 @@ ul.navbar {
 }
 
 .site-icon{
-    color: orange;
+    color: black;
     display: flex;
     align-items: center;
+    font-weight: bold;
 }
 
 li.nav-item {
@@ -60,8 +61,8 @@ li.nav-title {
 
 .design{
     text-align: center;
-    background-image: url("/images/image.jpg")
-    
+    background-image: url("/images/image.jpg");
+    background-size: cover;
 }
 .hello{
     text-align: center;
