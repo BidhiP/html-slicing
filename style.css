@@ -1,0 +1,61 @@
+ul.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    overflow: hidden;
+}
+
+li.nav-item {
+    float: left;
+}
+
+li.nav-item a{
+    display: inline-block;
+    color: black;
+    text-align: right;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li.nav-item a:hover{
+    background-color: blueviolet;
+}
+
+li.nav-title {
+    float:left;
+    font-size: 24px;
+    padding: 10px 16px;
+    color: rgb(190, 120, 120);
+    display: flex;
+    justify-content: center;
+}
+
+.nav-menu{
+
+    display: flex;
+    justify-content: space-between;
+
+}
+.Buy{
+    display: flex;
+    padding: 10px;
+    justify-content: right;
+    text-align: right;
+    background-color: blueviolet;
+    color: white;
+    border: hidden;
+    font-size: large;
+
+
+}
+
+.design{
+    text-align: center;
+    background-image: url("./image.jpg")
+}
+.hello{
+    text-align: center;
+}
+.i1{
+    text-align: center;
+}
