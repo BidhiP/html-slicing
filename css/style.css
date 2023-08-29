@@ -60,10 +60,9 @@ li.nav-title {
 }
 
 .design{
-    border: 300px;
-    height: 500px;
+    padding: 100px 0;
+    border: 3px;
     text-align: center;
-    justify-content: end;
     background-image: url("/images/img.jpg");
     background-size: cover;
 }
