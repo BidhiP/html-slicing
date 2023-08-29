@@ -1,4 +1,6 @@
 ul.navbar {
+    display: flex;
+    justify-content: space-between;
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -34,7 +36,7 @@ li.nav-title {
 .nav-menu{
 
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
 
 }
 .Buy{
@@ -52,7 +54,7 @@ li.nav-title {
 
 .design{
     text-align: center;
-    background-image: url("./image.jpg")
+    background-image: url("/images/image.jpg")
 }
 .hello{
     text-align: center;
