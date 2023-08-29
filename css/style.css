@@ -72,3 +72,9 @@ li.nav-title {
 .i1{
     text-align: center;
 }
+
+.features{
+    padding: 100px 0;
+    border: 3px;
+    text-align: center;
+}
