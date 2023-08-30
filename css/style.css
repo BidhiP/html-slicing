@@ -1,4 +1,9 @@
 /* reset css */
+*{
+    padding:0;
+    border:0;
+}
+
 /* grid layout (bootstrap) */
 /* helper */
 .container{
@@ -136,5 +141,5 @@ li.nav-title {
     color: white;
     border-style: solid;
     font-size: large;
-
 }
+
