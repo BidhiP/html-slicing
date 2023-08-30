@@ -143,3 +143,6 @@ li.nav-title {
     font-size: large;
 }
 
+.services{
+    display: flex;
+}
