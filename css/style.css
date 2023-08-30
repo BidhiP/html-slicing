@@ -5,11 +5,17 @@
     font-size: 100%;
     font: inherit;
 }
+body{
+    font-family: 'Poppins', sans-serif;
+}
+p{
+    font-family: 'Poppins', sans-serif;
+}
 
 /* grid layout (bootstrap) */
 /* helper */
 .container{
-    width: 100%;
+    width:1200pxs;
     max-width: 1200px;
     margin: 0 auto;
 }
