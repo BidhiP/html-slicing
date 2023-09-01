@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap');
+
 *{
     margin:0;
     padding: 0;
@@ -22,4 +24,15 @@
     width: 200px;
     text-transform: uppercase;  
     margin: 30px;
+}
+.map{
+    border: 3px solid;
+    margin: 3px;
+    padding: 2px;
+    background-color: black;
+}
+iframe{
+    width: 1337px;
+    padding: 70px 0;
+    
 }
