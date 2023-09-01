@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap');
 
+@font-face {
+    font-family: face;
+    src: url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Poppins:wght@100;200;300;400;500;600;700;800&family=Roboto&display=swap");
+}
 *{
     margin:0;
     padding: 0;
@@ -38,7 +42,7 @@
 .menu a{
     text-decoration: none;
     color: black;
-    font-weight: 200px;
+    font-weight: 600;
     
 }
 
@@ -53,6 +57,42 @@
     font-weight: bold;
 }
 
+.design{
+    display: flex;
+    margin: 4px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    height: 600px;
+    background-image:url("/images/pc.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: white;
+    font-size: medium;
+}
+
+.btn-play img{
+    border: none;
+    border-radius: 50%;
+    height: 30px;
+    padding: 30px;
+    width: 30px;
+    background-color: transparent;
+    background-position: center;
+}
+
+
+
+
+
+.para {
+    margin: 10%;
+    display: flex;
+    text-align: center;
+    font-size: 22px;
+}
+
 
 .cta{
     background: #39467b;
@@ -60,7 +100,6 @@
     border: 3px solid white;
     text-align: center;
     color: white;
-    font-family: 'Times New Roman', Times, serif;
 }
 
 .btn-primary{
@@ -71,7 +110,7 @@
     color: white;
     width: 200px;
     text-transform: uppercase;  
-    margin: 30px;
+    margin: 50px;
 }
 .map{
     border: 3px solid;
