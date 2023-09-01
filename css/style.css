@@ -5,6 +5,11 @@
     padding: 0;
 }
 
+nav {
+    background-color: #39467b;
+    display: flex;
+}
+
 
 .cta{
     background: #39467b;
