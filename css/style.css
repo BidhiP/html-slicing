@@ -1,4 +1,16 @@
-div.container{
-    background: blue;
-    
+*{
+    margin:0;
+    padding: 0;
+}
+
+
+.cta{
+    background: blueviolet;
+   padding: 70px 0;
+    border: 3px solid white;
+    text-align: center;
+    color: white;
+    font-size: large;
+    font-family: sans-serif;
+    font-weight: bolder;
 }
