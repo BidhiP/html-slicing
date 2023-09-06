@@ -79,6 +79,32 @@
 
 .features{
     display: flex;
+    text-align: center;
+    width: 100vw;
+    height: 100vh;
+}
+.para1{
+    display: flex;
+    width: 200px;
+    height: 200px;
+}
+.first-feature{
+    width: 200px;
+    height: 200px;
+    display: inline-flex;
+    background-color: white      
+}
+.second-feature{
+    width: 200px;
+    height: 200px;
+    display: inline-flex;
+    background-color: white      
+}
+.third-feature{
+    width: 200px;
+    height: 200px;
+    display: inline-flex;
+    background-color: white      
 }
 
 .btn-play img{
