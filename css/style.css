@@ -91,19 +91,19 @@
 .first-feature{
     width: 200px;
     height: 200px;
-    display: inline-flex;
+    display: flex;
     background-color: white      
 }
 .second-feature{
     width: 200px;
     height: 200px;
-    display: inline-flex;
+    display: flex;
     background-color: white      
 }
 .third-feature{
     width: 200px;
     height: 200px;
-    display: inline-flex;
+    display: flex;
     background-color: white      
 }
 
