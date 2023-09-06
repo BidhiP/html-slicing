@@ -127,6 +127,38 @@
     padding: 25px;
 }
 
+.features .second-feature img{
+    width: 100%;
+    height: 365px;
+    object-fit: fill;
+}
+
+.features .second-feature{
+    position: relative;
+ }
+ 
+ .features .second-feature .second-feature-content {
+     position: absolute;
+     top: 20%;
+     padding: 25px;
+ }
+
+ .features .third-feature img{
+    width: 100%;
+    height: 365px;
+    object-fit: fill;
+ }
+
+ .features .third-feature{
+    position: relative;
+ }
+
+ .features .third-feature .third-feature-content{
+    position: absolute;
+    top: 20%;
+    padding: 25px;
+ }
+
 .btn-play img{
     border: none;
     border-radius: 50%;
