@@ -13,7 +13,7 @@
     justify-content: space-between;
     align-items: center;
     padding: 10px 20px;
-    margin: 6px;
+
     
 }
 
@@ -56,7 +56,6 @@
 
 .design{
     display: flex;
-    margin: 4px;
     text-align: center;
     align-items: center;
     justify-content: center;
@@ -75,7 +74,6 @@
 .title{
     font-family: "font-family: 'Roboto', sans-serif;";
     height: 60px;
-    font-size: 30px;
     font-weight: normal;
 }
 
@@ -106,7 +104,6 @@
 .cta{
     background: #39467b;
    padding: 70px 0;
-    border: 3px solid white;
     text-align: center;
     color: white;
 }
@@ -123,7 +120,6 @@
 }
 .map{
     border: 3px solid;
-    margin: 3px;
     padding: 2px;
     background-color: black;
 }
