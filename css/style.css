@@ -77,6 +77,10 @@
     font-weight: normal;
 }
 
+.features{
+    display: flex;
+}
+
 .btn-play img{
     border: none;
     border-radius: 50%;
