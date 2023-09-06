@@ -107,10 +107,14 @@
     text-transform: capitalize;
 }
 
-.features .iconBox{
-    font-size: 24px;
-    color: white;
+ .iconBox{
+     color: white;
+    text-align: center;
+ }
     
+.iconBox .i{
+    font-size: 48px;
+    color: #007bff;
 }
 
 .features p{
@@ -169,6 +173,27 @@
     top: 20%;
     padding: 25px;
  }
+
+
+ .sia{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    height: 600px;
+    background-image:url("/images/dark.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: white;
+    font-size: medium;
+}
+
+.title1{
+    font-family: "font-family: 'Roboto', sans-serif;";
+    height: 60px;
+    font-weight: normal;
+}
 
 .btn-play img{
     border: none;
