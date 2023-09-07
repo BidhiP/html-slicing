@@ -238,6 +238,13 @@
     text-transform: uppercase;  
     margin: 50px;
 }
+
+form{
+    width: 600px;
+    position: relative;
+    padding-top: 15px;
+}
+
 .map{
     border: 3px solid;
     padding: 2px;
