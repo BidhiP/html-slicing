@@ -250,12 +250,6 @@
 
 
 
-.team{
-    display: flex;
-    justify-content: center;
-    text-align: end;
-    
-}
 
 
 .solutions{
@@ -368,7 +362,7 @@ justify-content: space-around;
     font-size: large;
     height: 49px;
 }
-.discuss .discuss-logo .logo{
+.discuss .discuss-logo .logos{
     padding: 10px;
     float: left;
 }
