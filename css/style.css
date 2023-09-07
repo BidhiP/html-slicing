@@ -266,12 +266,28 @@
 
 
 .solutions{
-    display: inline-flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    align-content: space-around;
-    letter-spacing: 2px;
-    padding-bottom: 10px;
+    display: flex;
+    padding-left: 21%;
+    height: 20%;
+}
+
+.solutions img{
+    display: block;
+    box-shadow: 0px 4px 8px 0 black;
+}
+
+.solutions .sol{
+    padding: 2%;
+}
+
+.solutions h2{
+    color: rgb(129, 42, 211);
+}
+
+.solutions a{
+    display: grid;
+    padding: 2%;
+    color: #808080;
 }
 
 
