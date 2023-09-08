@@ -434,38 +434,50 @@ form button {
     color: gold;
 }
 
-.our-services .our-services-2{
-    display: flex;
-    flex-direction: column;
-}
-.our-services-sub-layout{
-    display: flex;
-    flex-direction: column;
-}
-.our-services-outer-layout{
-    display: flex;
-    gap: 5px    ;
-}
 
-.our-services .col-3{
-    display: flex;
-    justify-content: center;
-}
-
-.col-3.our-services-horizontal{
-    flex-direction: column;
-    align-items: center;
-}
-
-.our-teams h2{
+.our-teams h2 {
     text-align: center;
 }
 
-.our-teams .container .row .col-3{
+.our-teams .container .row .col-3 {
     padding: 0 10px;
 }
-.our-teams .container .row .col-3 img{
+
+.our-teams .container .row .col-3 img {
     width: 100%;
     object-fit: cover;
     height: 383px;
 }
+
+/* Start Our Services */
+.services{
+    padding: 100px 0;
+}
+
+.services .col-3 h2{
+    text-align: center;
+}
+
+.schild {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px ;
+
+}
+
+.schild img {
+    height: 50px;
+    width: 50px;
+    margin-top: 20px;
+    padding-right: 20px;
+}
+
+.scontent {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+}
+
+
+
+/* End Our Services */
