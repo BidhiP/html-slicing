@@ -99,6 +99,38 @@
     font-weight: normal;
 }
 
+button.btn-play {
+    height: 30px;
+    border: none;
+    width: 57px;
+    background-color: transparent;
+}
+
+/* svg style */
+.st0 {
+    fill-rule: evenodd;
+    clip-rule: evenodd;
+    fill: #D5392E;
+  }
+
+  .st1 {
+    fill-rule: evenodd;
+    clip-rule: evenodd;
+    fill: #FFFFFF;
+  }
+/* svg style */
+
+.cta-play-button-with-text{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    align-items: center;
+}
+
+.cta-play-button-with-text p{
+    padding-top: 20px;
+}
+
 .features {
     text-align: center;
     width: 100%;
@@ -476,8 +508,34 @@ form button {
     display: flex;
     flex-direction: column;
     width: 200px;
+    font-family: 'Roboto Condensed', sans-serif'
+}
+
+.scontent p{
+    color: grey;
 }
 
 
-
 /* End Our Services */
+
+/* Pricing style start */
+.price{
+    gap: 20px;
+    text-align: center;
+    justify-content: space-between;
+    width: 500vw;
+}
+.container3{
+    display: flex;
+}
+.classic{
+    display: flex;
+    flex-direction:column;
+    gap: 2px;
+}
+
+.standard{
+    display:flex;
+    flex-direction: column;
+}
+/* Pricing style end */
