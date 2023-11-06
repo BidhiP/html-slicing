@@ -1,5 +1,3 @@
-// JavaScript code in script.js
-
 // Array to store names
 const namesArray = ["Ram","Shyam"];
 
