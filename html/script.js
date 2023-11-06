@@ -1,7 +1,7 @@
 // JavaScript code in script.js
 
 // Array to store names
-const namesArray = [];
+const namesArray = ["Ram","Shyam"];
 
 // Get elements from the DOM
 const nameForm = document.getElementById("nameForm");
