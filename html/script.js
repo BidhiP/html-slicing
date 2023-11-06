@@ -36,3 +36,9 @@ addNameButton.addEventListener("click", () => {
 nameForm.addEventListener("submit", (e) => {
     e.preventDefault();
 });
+
+// const div = document.createElement("div");
+// const button = document.createElement("button");
+// button.innerText="show";
+// div.append(button.innertext);     
+
